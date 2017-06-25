@@ -1,0 +1,47 @@
+{
+    "name": "dazzle-php/channel-zmq",
+    "description": "Dazzle Asynchronous ZMQ Channel.",
+    "keywords": [
+        "dazzle", "dazzle-php", "ipc", "inter", "inter-process", "async", "asynchronous", "routing", "router", "message-driven", "message", "service", "service-oriented", "soa", "channel"
+    ],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/dazzle-php/channel-zmq/issues",
+        "source": "https://github.com/dazzle-php/channel-zmq"
+    },
+    "authors": [
+        {
+            "name":     "Kamil Jamroz",
+            "homepage": "https://github.com/khelle"
+        },
+        {
+            "name":     "The contributors",
+            "homepage": "http://github.com/dazzle-php/channel-zmq/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.7",
+        "dazzle-php/channel": "0.5.*",
+        "dazzle-php/event": "0.5.*",
+        "dazzle-php/loop": "0.5.*",
+        "dazzle-php/throwable": "0.5.*",
+        "dazzle-php/util": "0.5.*",
+        "dazzle-php/zmq": "0.5.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=4.8.0 <5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dazzle\\ChannelZmq\\": "src/Channel-Zmq",
+            "Dazzle\\ChannelZmq\\Test\\": "test"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.5-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
